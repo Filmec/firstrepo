@@ -1,0 +1,149 @@
+.fb:hover{
+    opacity: 0.7;
+    
+}
+
+.t:hover{
+    opacity: 0.7;
+}
+
+.tiktok:hover{
+    opacity: 0.7;
+}
+.yt:hover{
+    opacity: 0.7;
+}
+
+.ig:hover{
+    opacity: 0.7;
+}
+.fb{
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 30%;
+    top: 3px;
+    
+    background: url(facebook.png);
+}
+.tiktok{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 40%;
+top: 3px;
+
+background: url(tt.png);
+}
+
+.ig{
+
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 60%;
+top: 3px;
+
+background: url(ig.png);
+}
+
+.yt{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 70%;
+top: 3px;
+
+background: url(yt.png);
+}
+.t{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 50%;
+top: 3px;
+
+background: url(t.png);
+}
+
+.lewy {
+    position: absolute;
+width: 25%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: #EDE9E9;
+}
+
+.prawy{
+    position: absolute;
+width: 25%;
+height: 100%;
+left: 75%;
+top: 0px;
+
+background: #EDE9E9;
+}
+
+.josef{
+  position: absolute;
+width: 344px;
+height: 375px;
+left: 20%;
+top: 364px;
+
+background: url(js.png);
+border-radius: 172px;
+}
+.imie{
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    left: 38%;
+    top: 20%;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); 
+}
+.srodek{
+position: absolute;
+width: 50%;
+height: 1%;
+left: 25%;
+top: 68px;
+opacity: 40%;
+
+background: #000000;
+}
+
+.umiejetnosci{
+    
+position: absolute;
+width: 100px;
+height: 88px;
+left: 25%;
+top: 12%;
+
+font-family:monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}

@@ -1,0 +1,203 @@
+body{
+    background-color: rgb(235, 240, 240);
+}
+
+
+.fb:hover{
+    opacity: 0.7;
+    
+}
+
+.t:hover{
+    opacity: 0.7;
+}
+
+.tiktok:hover{
+    opacity: 0.7;
+}
+.yt:hover{
+    opacity: 0.7;
+}
+
+.ig:hover{
+    opacity: 0.7;
+}
+.fb{
+
+    position: absolute;
+    width: 64px;
+    height: 64px;
+    left: 30%;
+    top: 3px;
+    
+    background: url(facebook.png);
+}
+.tiktok{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 40%;
+top: 3px;
+
+background: url(tt.png);
+}
+
+.ig{
+
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 60%;
+top: 3px;
+
+background: url(ig.png);
+}
+
+.yt{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 70%;
+top: 3px;
+
+background: url(yt.png);
+}
+.t{
+    position: absolute;
+width: 64px;
+height: 64px;
+left: 50%;
+top: 3px;
+
+background: url(t.png);
+}
+
+.lewy {
+    position: absolute;
+width: 25%;
+height: 100%;
+left: 0px;
+top: 0px;
+
+background: rgb(235, 240, 240);
+}
+
+.prawy{
+    position: absolute;
+width: 25%;
+height: 100%;
+left: 75%;
+top: 0px;
+
+background: rgb(235, 240, 240);
+}
+
+.josef{
+
+    position: absolute;
+    width: 331px;
+    height: 258px;
+    left: 20%;
+    top: 426px;
+    
+    background: url(piesek.jpg);
+    border-radius: 129px;
+}
+.imie{
+    position: absolute;
+    width: 200px;
+    height: 41px;
+    left: 38%;
+    top: 20%;
+    
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 41px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    
+    color: #000000;
+    
+    
+}
+.srodek{
+position: absolute;
+width: 50%;
+height: 1%;
+left: 25%;
+top: 68px;
+opacity: 40%;
+
+background: #000000;
+}
+
+.umiejetnosci{
+    
+position: absolute;
+width: 100px;
+height: 88px;
+left: 25%;
+top: 12%;
+
+font-family:monospace;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 41px;
+display: flex;
+align-items: center;
+text-align: center;
+
+
+}
+
+
+li{
+    position: relative;
+width: 146px;
+height: 100px;
+left: 120px;
+top: 325px;
+
+font-family: Trirong;
+font-style: normal;
+font-weight: normal;
+font-size: 24px;
+line-height: 42px;
+
+color: #000000;
+}
+
+.tekst{
+    position: absolute;
+    width: 50%;
+    height: 93%;
+    left: 25%;
+    top: 69px;
+   
+    
+    
+    background: #b1abab;
+    }  
+iframe{
+    padding-left: 3%;
+    padding-top: 8%;
+    width: 100%;
+    height: 100%;
+    position: fixed; 
+    overflow: hidden;  
+    width: 100%; 
+    border: 0px;
+}
+.gora{
+    width: 100%;
+    height: 7%;
+    left: 25%;
+    top: -2px;
+    background-color: rgb(235, 240, 240);
+}
+
+ 

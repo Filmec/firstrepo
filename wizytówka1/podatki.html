@@ -1,0 +1,33 @@
+<html>
+   <body>
+       <div style="color:red;font-size:50px;">
+       <script>
+           
+           var a=parseFloat(zarobki);
+           var b=podatki.value;
+           var suma;
+           suma=a*0,17;
+           document.write("suma " + a + "+" + b+ "=" +suma+ "<br>" );
+           roznica=a-b;
+           document.write("suma " + a + "-" + b+ "=" +roznica+ "<br>" );
+
+           iloczyn=a*b;
+           document.write("suma " + a + "*" + b+ "=" +iloczyn+ "<br>" );
+           
+           iloraz=a/b;
+           document.write("suma " + a + "/" + b+ "=" +iloraz+ "<br>" );
+       </script>
+   
+  
+</div>
+zarobki: <input type="number" id="zarobki"><br>
+<select name="podatki" autofocus>
+    <option value="dochodowy" id="dochodowy">Podatek dochodowy</option>
+    <option value="liniowy" id="liniowy">Podatek liniowy</option>
+    <option value="karta" id="karta">Karta podatkowa</option>
+    <option value="progresywny" id="progresywny">Podatek progresywnt</option>
+    <input type="button" onclick="oblicz()" value="oblicz";
+</select>
+   </body>      
+   </html>
+   

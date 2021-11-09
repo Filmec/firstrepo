@@ -1,0 +1,3 @@
+<form action='' method="GET" >  
+Usuwanie podaj id<input type="text" name="nazw" > 
+<input type="submit" value="Usun" name="usun"><br><br>
